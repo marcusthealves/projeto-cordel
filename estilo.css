@@ -53,8 +53,8 @@ header p{
 
 a{
     color: white;
-    font-size: 24px;
-    font-weight: bolder;
+    font-size: 1em;
+    font-weight:lighter;
     text-decoration: none;
 }
 
@@ -110,12 +110,16 @@ footer{
     background-color: black;
     color: white;
     font-family:var(--fonte1);
-    font-size: 1,6em;
+    font-size: 1.6em;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 100px;
     text-align: center;
     text-decoration: none;
+}
+
+footer p{
+    color: red;
 }
 
 
